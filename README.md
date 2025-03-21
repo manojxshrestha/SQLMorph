@@ -3,11 +3,11 @@
 This is a custom **tamper script** for **SQLMap** and **Ghauri**, designed to **obfuscate SQL injection payloads** and help bypass Web Application Firewalls (WAFs). It modifies SQL queries by applying **random case changes, URL encoding, logical operator substitution**, and other techniques.
 
 ## Features
-✅ Randomizes case of SQL keywords to evade detection
-✅ Replaces `OR` with `||` and `AND` with `&&`
-✅ Injects random spaces and comments (`/**/`) to break up keywords
-✅ URL encodes parts of the payload for further obfuscation
-✅ Can be combined with other tamper scripts for enhanced effectiveness
+- 🔹 Randomizes case of SQL keywords to evade detection
+- 🔹 Replaces `OR` with `||` and `AND` with `&&`
+- 🔹 Injects random spaces and comments (`/**/`) to break up keywords
+- 🔹 URL encodes parts of the payload for further obfuscation
+- 🔹 Supports combination with other tamper scripts for enhanced effectiveness
 
 ## Installation
 
